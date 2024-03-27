@@ -1,0 +1,3 @@
+--cpu ARM7TDMI "lpcbcd.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lpc2148 files.map" -o "lpc2148 files.axf"

@@ -1,0 +1,18 @@
+*** Creating Trace Output File 'LPC2148(1).tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"lpc(bcd).o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "lpc(bcd).o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LPC2148(1).map" -o "LPC2148(1).axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'LPC2148(1).axf'
+### ADS-LD Command File: 'LPC2148(1).lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'LPC2148(1).lnp', Handle=0x000006F0
+### Writing '.lnp' file
+### ADS-LD Command file 'LPC2148(1).lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 1 errors
+### Updating obj list
+### LDADS_file() completed.
